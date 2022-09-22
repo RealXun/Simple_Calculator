@@ -1,5 +1,3 @@
-import sys
-yes_no = ("Y","N","y","n")
 while True:
     # take input from the user and check if the input is an integer.
     n1 = input("Introduce the First number: ")
