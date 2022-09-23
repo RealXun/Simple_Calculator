@@ -3,7 +3,7 @@ Create a simple calculator.
 <p align="center">
     <img src="https://github.com/RealXun/Simple_Calculator/blob/main/Resources/cover.png" width="500">
 
-## Simple calculator V1 
+## Simple calculator V2
 With defining functions:
 - def first_number() --> To input the first number.
 - def second_number() --> To input the second number.
