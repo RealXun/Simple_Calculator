@@ -8,7 +8,7 @@ while True:
     Modulus(%)-->Divides and returns the value of the remainder.
     """)   
     # take input for the first number from the user and check if the input is an integer or float.
-    n1 = input("Introduce the First number: ")
+    n1 = input("\nIntroduce the First number: ")
     
     #First we check if it is integner, if it is integer we get the number, if there is a ValueError we check if is it float
     try:
@@ -22,14 +22,14 @@ while True:
             #print(n1)
             #print(type(n1))
         except ValueError: #Not interget number, not a float number, then we to type again
-            print('T\The provided value is not a number. Try again.')
+            print('T\nhe provided value is not a number. Try again.')
             continue
 
     while True:
         operation = input('\nPlease enter what operation you would like to do, / is divide, * is multiply, + is plus and - is minus, % Modulus, // Floor Division: ')
         if operation in {'+', '-', '/', '*', '//', '%'}:
             break
-        print(f'Operation not recognized: {operation}, try again')
+        print(f'Not a valid answer: {operation}, try again')
 
     # take input for the second number from the user and check if the input is an integer or float.
     while True:
@@ -57,19 +57,19 @@ while True:
     #Here the math operation starts
     #Sum operation
     if operation in {'+'}:
-    	print ("\nThe sum of", n1, "plus", n2, "is:",n1+n2)
+    	print ("\nThe sum of", n1, "plus", n2, "is;",n1+n2)
     
     #Sum operation
     if operation in {'-'}:
-    	print ("\nThe Subtraction of", n1, "minus", n2, "is:",n1-n2)
+    	print ("\nThe Subtraction of", n1, "minus", n2, "is;",n1-n2)
     
     #divide operation
     if operation in {'/'}:
-    	print ("\nThe division of", n1, "divided by", n2, "is:",n1/n2)
+    	print ("\nThe division of", n1, "divided by", n2, "is;",n1/n2)
     
     #multiply operation
     if operation in {'*'}:#multiply operation
-    	print ("\nThe multiplication of", n1, "mulpiplty by", n2, "is:",n1*n2)
+    	print ("\nThe multiplication of", n1, "mulpiplty by", n2, "is;",n1*n2)
     
     #Floor Modulus operation
     if operation in {'%'}:#Floor Modulus operation
@@ -77,12 +77,12 @@ while True:
     
     #Floor Division operation
     if operation in {'//'}:
-    	print ("\nThe Floor Division of", n1, "and", n2, "is:",n1//n2)
+    	print ("\nThe Floor Division of", n1, "and", n2, "is;",n1//n2)
 
     #Here we create the question to exit or continue
     while True:
         yes_no = ("Y","N","y","n")
-        question = input("\nDo you wanna continue?: y/n: ")
+        question = input("\nDo you wanna conitnio?: y/n: ")
         if question in {'y', 'Y', 'n', 'N',}:
             if question == "n" or question == "N":
                 raise SystemExit
