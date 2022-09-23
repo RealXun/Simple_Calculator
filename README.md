@@ -3,6 +3,19 @@ Create a simple calculator.
 <p align="center">
     <img src="https://github.com/RealXun/Simple_Calculator/blob/main/Resources/cover.png" width="500">
 
+## Simple calculator V2
+With defining functions:
+- def first_number() --> To input the first number.
+- def second_number() --> To input the second number.
+- def what_operation() --> To input the math operation we want to do.
+- def exit_continue() --> To exit or to continue with another operation.
+- def multiplication() --> Multiplication operation.
+- def addition() --> Sum operation.
+- def subtraction() --> Subtraction operation.
+- def divide() --> Division operation.
+- def modulus_operation() --> Modulus operation.
+- def division_operation() --> Floor Division operation.
+
 ## Simple calculator V1 
 Without defining functions.
 
