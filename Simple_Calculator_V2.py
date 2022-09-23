@@ -54,6 +54,7 @@ def second_number(number2):
                 print('T\The value provided is not a number. Try again.')
                 continue
 
+#Here we create the exit or continue function
 def exit_continue():
     while True:
         question = input("\nDo you wanna continue?: y/n: ")
@@ -82,20 +83,15 @@ while True:
     #Here the math operation starts: SUM, Subtraction, division, Multiplication,Modulus operation, Floor Divisiong
     if operation in {'+'}:
     	print ("\nThe sum of", n1, "plus", n2, "is:",addition(n1, n2))
-    
-    if operation in {'-'}:
+    elif operation in {'-'}:
     	print ("\nThe Subtraction of", n1, "minus", n2, "is:",subtraction(n1, n2))
-    
-    if operation in {'/'}:
+    elif operation in {'/'}:
     	print ("\nThe division of", n1, "divided by", n2, "is:",divide(n1, n2))
-    
-    if operation in {'*'}:
+    elif operation in {'*'}:
     	print ("\nThe multiplication of", n1, "mulpiplty by", n2, "is:",multiplication(n1, n2))
-    
-    if operation in {'%'}:#Modulus operation
+    elif operation in {'%'}:#Modulus operation
     	print ("\nThe Modulus of", n1, "and", n2, "is;",modulus_operation(n1, n2))
-    
-    if operation in {'//'}:
+    elif operation in {'//'}:
     	print ("\nThe Floor Division of", n1, "and", n2, "is:",division_operation(n1, n2))
 
     #Here we create the question to exit or continue
