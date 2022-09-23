@@ -10,7 +10,7 @@ def divide(num1, num2):
     return num1 / num2
 def modulus_operation(num1, num2):
     return num1 % num2
-def division_operation(num1, num2):
+def Floor_division_operation(num1, num2):
     return num1 // num2
 
 #Here we create the first input
@@ -40,7 +40,7 @@ def what_operation():
         continue
 
 #Here we create the second input
-def second_number(number2):
+def second_number():
     while True:
         number2 = input("\nIntroduce the Second number: ")
         try:
@@ -89,10 +89,10 @@ while True:
     	print ("\nThe division of", n1, "divided by", n2, "is:",divide(n1, n2))
     elif operation in {'*'}:
     	print ("\nThe multiplication of", n1, "mulpiplty by", n2, "is:",multiplication(n1, n2))
-    elif operation in {'%'}:#Modulus operation
+    elif operation in {'%'}:
     	print ("\nThe Modulus of", n1, "and", n2, "is;",modulus_operation(n1, n2))
     elif operation in {'//'}:
-    	print ("\nThe Floor Division of", n1, "and", n2, "is:",division_operation(n1, n2))
+    	print ("\nThe Floor Division of", n1, "and", n2, "is:",Floor_division_operation(n1, n2))
 
     #Here we create the question to exit or continue
     exit=exit_continue()

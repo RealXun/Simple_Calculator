@@ -59,20 +59,20 @@ while True:
     if operation in {'+'}:
     	print ("\nThe sum of", n1, "plus", n2, "is;",n1+n2)
     
-    #Sum operation
+    #Subtraction operation
     if operation in {'-'}:
     	print ("\nThe Subtraction of", n1, "minus", n2, "is;",n1-n2)
     
-    #divide operation
+    #Division operation
     if operation in {'/'}:
     	print ("\nThe division of", n1, "divided by", n2, "is;",n1/n2)
     
-    #multiply operation
-    if operation in {'*'}:#multiply operation
+    #Multiplication operation
+    if operation in {'*'}:
     	print ("\nThe multiplication of", n1, "mulpiplty by", n2, "is;",n1*n2)
     
-    #Floor Modulus operation
-    if operation in {'%'}:#Floor Modulus operation
+    #Modulus operation
+    if operation in {'%'}:
     	print ("\nThe Modulus of", n1, "and", n2, "is;",n1%n2)
     
     #Floor Division operation
