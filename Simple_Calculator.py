@@ -8,7 +8,7 @@ while True:
     Modulus(%)-->Divides and returns the value of the remainder.
     """)   
     # take input for the first number from the user and check if the input is an integer or float.
-    n1 = input("\nIntroduce the First number: ")
+    n1 = input("Introduce the First number: ")
     
     #First we check if it is integner, if it is integer we get the number, if there is a ValueError we check if is it float
     try:
@@ -22,14 +22,14 @@ while True:
             #print(n1)
             #print(type(n1))
         except ValueError: #Not interget number, not a float number, then we to type again
-            print('T\nhe provided value is not a number. Try again.')
+            print('T\The provided value is not a number. Try again.')
             continue
 
     while True:
         operation = input('\nPlease enter what operation you would like to do, / is divide, * is multiply, + is plus and - is minus, % Modulus, // Floor Division: ')
         if operation in {'+', '-', '/', '*', '//', '%'}:
             break
-        print(f'Not a valid answer: {operation}, try again')
+        print(f'Operation not recognized: {operation}, try again')
 
     # take input for the second number from the user and check if the input is an integer or float.
     while True:
@@ -82,7 +82,7 @@ while True:
     #Here we create the question to exit or continue
     while True:
         yes_no = ("Y","N","y","n")
-        question = input("\nDo you wanna conitnio?: y/n: ")
+        question = input("\nDo you wanna continue?: y/n: ")
         if question in {'y', 'Y', 'n', 'N',}:
             if question == "n" or question == "N":
                 raise SystemExit
